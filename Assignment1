@@ -1,0 +1,12 @@
+def add(x, y):
+    return x+y
+def sub(x, y):
+    return x-y
+def mul(x, y):
+    return x*y
+def div(x, y):
+    return x/y
+
+print("Welcome to your calculator! \nPlease enter a number from the menu below:"
+      "[1] Add \n[2] Subtraction \n[3] Multiplication \n [4] Division")
+print(int(input("Please enter a number")))
