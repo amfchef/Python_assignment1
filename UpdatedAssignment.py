@@ -1,5 +1,4 @@
 def add(x: float, y: float):
-    print(f"{x} {y}")
     return x + y
 
 def sub(x: float, y: float):
@@ -24,3 +23,8 @@ def print_out_text(sum):
         print("Missed the spot!")
     else:
         print("negative number")
+
+try:
+    print_out_text(add(100, 0))
+except:
+    print("Error\nplease try again")
